@@ -1,0 +1,118 @@
+.main{
+  background-color:hsl(30, 38%, 92%);
+}
+.text{
+  height: 29rem;
+  width:18.625rem;
+  margin:6rem auto 0 40.5rem;
+  background-color: white;
+  border-radius:0 1rem 1rem 0;
+}
+.image{
+  height: 29rem;
+  width:18.625rem;
+  position: absolute;
+  left:23rem;
+  border-radius:1rem 0 0 1rem;
+}
+.para{
+  position:relative;
+  top: 1.875rem;
+  left:1.875rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: hsl(228, 12%, 48%);
+  font-size: 0.75rem;
+}
+.para1{
+  position: relative;
+  top: 1.5625rem;
+  left:1.875rem;
+  width: 75%;
+  font-family: 'Fraunces', serif;
+  color: hsl(212, 21%, 14%);
+  text-align: left;
+}
+.para2{
+  position:relative;
+  top: 1.875rem;
+  left:1.875rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  width: 75%;
+  color: hsl(228, 12%, 48%);
+  font-size: 0.875rem;
+  text-align: left;
+  line-height: 1.5;
+}
+.price{
+  position: relative;
+  top: 2.1875rem;
+  left:1.875rem;
+  font-family: 'Fraunces', serif;
+  color: hsl(158, 36%, 37%);
+  text-align: left;
+  display: inline-block;
+}
+.old-price{
+  position:relative;
+  top: 1.8125rem;
+  left:2.6875rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: hsl(228, 12%, 48%);
+  font-size:0.875rem;
+  display: inline-block;
+}
+.btn{
+  position:relative;
+  top: 2.5rem;
+  left:2.0625rem;
+  border: 0;
+  background-color:hsl(158, 36%, 37%);
+  border-radius:0.625rem;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size:0.875rem;
+  padding: 0.625rem 3.75rem 0.625rem 3.75rem;
+}
+.btn:hover{
+  background-color:  hsl(158, 20%, 20%);
+}
+.fa-shop{
+  padding-right:10px;
+}
+@media (max-width:480px)and(min-width:320px){
+  .main{
+    background-color:hsl(30, 38%, 92%);
+  }
+  .image{
+    height: 29rem;
+    width:85%;
+    position:relative;
+    left:2.1875rem;
+    top:1.25rem;
+    border-radius:1rem 1rem 0 0;
+  }
+  .text{
+    height:29rem;
+    width:85%;
+    position: relative;
+    right:38.30625rem;
+    background-color: white;
+    border-radius:0 0 1rem 1rem;
+    position: relative;
+    bottom:18.75rem;
+  }
+  .para1{
+    width: 80%;
+    font-size:35px;
+  }
+  .para2{
+    width: 80%;
+    font-size: 1rem;
+  }
+  .btn{
+    padding: 1rem 6.75rem 1em 6.75rem;
+  }
+}
