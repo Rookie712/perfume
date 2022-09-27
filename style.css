@@ -82,7 +82,7 @@
 .fa-shop{
   padding-right:10px;
 }
-@media all and (max-width:500px){
+@media all and (max-width:500px) and (min-width:270px){
   .main{
     background-color:hsl(30, 38%, 92%);
   }
